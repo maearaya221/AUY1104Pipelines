@@ -34,7 +34,7 @@ jobs: #cambiar todo
     runs-on: ubuntu-latest
     steps:
       - name: 1 . Descargar el codigo del repo
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: 2. Iniciar sesion en Docker Hub
         uses: docker/login-action@v2
         with:
