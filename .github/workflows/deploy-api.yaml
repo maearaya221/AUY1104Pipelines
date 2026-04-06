@@ -8,7 +8,7 @@ on:
         required: true
         type: string
       image-tag:
-        description: "Tag Git v1.0.0
+        description: "Tag v1.0.0"
         required: true #cambio
         type: string
     secrets:
